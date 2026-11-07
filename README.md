@@ -61,3 +61,37 @@ API endpoints were tested using Postman, including successful requests and failu
 
 ## Author
 BDF Lab 3 – Backend Development Fundamentals
+## 📸 Postman API Testing Screenshots
+
+### 1. GET All Books
+![GET All Books](Screenshorts/getallbooks.png)
+
+### 2. GET Book by ID
+![GET Book by ID](Screenshorts/getbyid.png)
+
+### 3. POST Add New Book
+![POST Add Book](Screenshorts/addbookbypost.png)
+
+### 4. Sorting Books in Ascending Order
+![Sorting ASC](<Screenshorts/sorting asc.png>)
+
+### 5. Pagination using Offset
+![Offset](Screenshorts/offset.png)
+
+### 6. Search Books
+![Search Books](Screenshorts/searchbyget.png)
+
+### 7. GET Book Not Found
+![GET Not Found](<Screenshorts/booknotfound byget.png>)
+
+### 8. DELETE Book
+![DELETE Book](Screenshorts/delete.png)
+
+### 9. DELETE Book Not Found
+![DELETE Not Found](<Screenshorts/delete not found.png>)
+
+### 10. PUT Update Book
+![PUT Update](Screenshorts/updatebyput.png)
+
+### 11. PUT Book Not Found
+![PUT Not Found](Screenshorts/putbynotfound.png)
