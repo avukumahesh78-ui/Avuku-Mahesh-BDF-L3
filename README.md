@@ -174,116 +174,115 @@ Postman was used to test the REST API endpoints. Different HTTP methods and quer
 
 The following 11 test cases were performed:
 
-**Test 1: GET All Books**
+### Test 1: GET All Books
 
-Method: GET
+**Method:** GET
 
-Endpoint: `http://localhost:3000/books`
+**Endpoint:** `http://localhost:3000/books`
 
-Purpose: To retrieve all available book records from the database.
+**Purpose:** To retrieve all available book records from the database.
 
-[Insert Screenshot 1 – getallbooks.png]
+![GET All Books](Screenshorts/getallbooks.png)
 
-**Test 2: GET Book by ID**
+### Test 2: GET Book by ID
 
-Method: GET
+**Method:** GET
 
-Endpoint: `http://localhost:3000/books/1`
+**Endpoint:** `http://localhost:3000/books/1`
 
-Purpose: To retrieve a particular book using its unique ID.
+**Purpose:** To retrieve a particular book using its unique ID.
 
-[Insert Screenshot 2 – getbyid.png]
+![GET Book by ID](Screenshorts/getbyid.png)
 
-**Test 3: POST Add New Book**
+### Test 3: POST Add New Book
 
-Method: POST
+**Method:** POST
 
-Endpoint: `http://localhost:3000/books`
+**Endpoint:** `http://localhost:3000/books`
 
-Purpose: To insert a new book record into the database using JSON request data.
+**Purpose:** To insert a new book record into the database using JSON request data.
 
-[Insert Screenshot 3 – addbookbypost.png]
+![POST Add Book](Screenshorts/addbookbypost.png)
 
-**Test 4: Sorting Books in Ascending Order**
+### Test 4: Sorting Books in Ascending Order
 
-Method: GET
+**Method:** GET
 
-Endpoint: `http://localhost:3000/books?order_by=price&order=ASC`
+**Endpoint:** `http://localhost:3000/books?order_by=price&order=ASC`
 
-Purpose: To retrieve book records sorted by price in ascending order.
+**Purpose:** To retrieve book records sorted by price in ascending order.
 
-[Insert Screenshot 4 – sorting asc.png]
+![Sorting ASC](<Screenshorts/sorting asc.png>)
 
-**Test 5: Offset and Pagination**
+### Test 5: Offset and Pagination
 
-Method: GET
+**Method:** GET
 
-Endpoint: `http://localhost:3000/books?limit=5&offset=5`
+**Endpoint:** `http://localhost:3000/books?limit=5&offset=5`
 
-Purpose: To skip the first five records and retrieve the next five records.
+**Purpose:** To skip the first five records and retrieve the next five records.
 
-[Insert Screenshot 5 – offset.png]
+![Offset](Screenshorts/offset.png)
 
-**Test 6: Search Books**
+### Test 6: Search Books
 
-Method: GET
+**Method:** GET
 
-Endpoint: `http://localhost:3000/books?search_q=Python`
+**Endpoint:** `http://localhost:3000/books?search_q=Python`
 
-Purpose: To search for books using a partial title match.
+**Purpose:** To search for books using a partial title match.
 
-[Insert Screenshot 6 – searchbyget.png]
+![Search Books](Screenshorts/searchbyget.png)
 
-**Test 7: GET Book Not Found**
+### Test 7: GET Book Not Found
 
-Method: GET
+**Method:** GET
 
-Endpoint: `http://localhost:3000/books/999`
+**Endpoint:** `http://localhost:3000/books/999`
 
-Purpose: To verify the API response when the requested book ID does not exist.
+**Purpose:** To verify the API response when the requested book ID does not exist.
 
-[Insert Screenshot 7 – booknotfound byget.png]
+![GET Not Found](<Screenshorts/booknotfound byget.png>)
 
-**Test 8: DELETE Book**
+### Test 8: DELETE Book
 
-Method: DELETE
+**Method:** DELETE
 
-Endpoint: `http://localhost:3000/books/10`
+**Endpoint:** `http://localhost:3000/books/10`
 
-Purpose: To delete an existing book record from the database.
+**Purpose:** To delete an existing book record from the database.
 
-[Insert Screenshot 8 – delete.png]
+![DELETE Book](Screenshorts/delete.png)
 
-**Test 9: DELETE Book Not Found**
+### Test 9: DELETE Book Not Found
 
-Method: DELETE
+**Method:** DELETE
 
-Endpoint: `http://localhost:3000/books/999`
+**Endpoint:** `http://localhost:3000/books/999`
 
-Purpose: To verify the error response when attempting to delete a nonexistent book.
+**Purpose:** To verify the error response when attempting to delete a nonexistent book.
 
-[Insert Screenshot 9 – delete not found.png]
+![DELETE Not Found](<Screenshorts/delete not found.png>)
 
-**Test 10: PUT Update Book**
+### Test 10: PUT Update Book
 
-Method: PUT
+**Method:** PUT
 
-Endpoint: `http://localhost:3000/books/1`
+**Endpoint:** `http://localhost:3000/books/1`
 
-Purpose: To update the details of an existing book record.
+**Purpose:** To update the details of an existing book record.
 
-[Insert Screenshot 10 – updatebyput.png]
+![PUT Update](Screenshorts/updatebyput.png)
 
-**Test 11: PUT Book Not Found**
+### Test 11: PUT Book Not Found
 
-Method: PUT
+**Method:** PUT
 
-Endpoint: `http://localhost:3000/books/999`
+**Endpoint:** `http://localhost:3000/books/999`
 
-Purpose: To verify the API response when attempting to update a nonexistent book.
+**Purpose:** To verify the API response when attempting to update a nonexistent book.
 
-[Insert Screenshot 11 – putbynotfound.png]
-
+![PUT Not Found](Screenshorts/putbynotfound.png)
 # 11. DEBUGGING AND ERROR HANDLING
 
 During the development process, different backend errors were identified and resolved.
