@@ -338,3 +338,22 @@ Overall, the lab successfully demonstrated the implementation of a RESTful Book 
 https://github.com/avukumahesh78-ui/Avuku-Mahesh-BDF-L3
 
 The repository contains the backend source code, README documentation, and 11 Postman testing screenshots.
+# 15. PROJECT DEPLOYMENT
+
+The REST API application was deployed online using Render, making it accessible through a public URL.
+
+**Deployment Platform:** Render
+
+**Live Deployment URL:**  
+https://avuku-mahesh-bdf-l3.onrender.com
+
+The deployed application allows users to access the REST API through the internet without running the project locally.
+
+**API Endpoints:**
+
+- GET All Books: `/books`
+- GET Book by ID: `/books/:id`
+- POST New Book: `/books`
+- PUT Update Book: `/books/:id`
+- DELETE Book: `/books/:id`
+
